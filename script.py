@@ -14,7 +14,7 @@ if not flag:
     print("[!] FATAL: No flag present.",
           file=sys.stderr)
     print("SERVICE ERROR: Challenge misconfigured -- "\
-          "Contact admins@utulsa.cc")
+          "Contact admin@utulsa.cc")
     sys.exit(1)
 
 print("Say hello")
