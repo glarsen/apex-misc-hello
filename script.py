@@ -9,7 +9,7 @@ rclient = raven.Client()
 
 flag = None
 try:
-    with open('/run/secrets/hello-flag') as f:
+    with open('/run/secrets/flag') as f:
         flag = f.read()
 except FileNotFoundError:
     rclient.captureException()
