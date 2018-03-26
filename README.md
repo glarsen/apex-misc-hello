@@ -19,5 +19,5 @@ Deploy with [Docker Swarm](https://docs.docker.com/engine/swarm/).
 
 For testing, pass the flag into the container via an environment
 variable named `FLAG`. For production, pass the flag as a
-[Docker secret](https://git.io/vxZJF) called `hello-flag`.
+[Docker secret](https://git.io/vxZJF).
 
