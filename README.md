@@ -3,12 +3,14 @@
 A miscellaneous challenge to greet players and introduce
 them to interacting with remote network services.
 
+[![demo](https://asciinema.org/a/J5n3qpSGaeeeS3sOij6CqfWPO.png)](https://asciinema.org/a/J5n3qpSGaeeeS3sOij6CqfWPO?autoplay=1)
+
 ### Building & Testing
 
 ```
 docker build -t apex-misc-hello .
-docker run -d --rm --name apex-misc-hello -p 8000:8000 -e FLAG='ctf{hElO_WoRlD}' apex-misc-hello
-nc localhost 8000
+docker run -d --rm -p 8001:8000 -e FLAG='ctf{hElO_WoRlD}' apex-misc-hello
+nc localhost 8001
 ```
 
 ### Production
